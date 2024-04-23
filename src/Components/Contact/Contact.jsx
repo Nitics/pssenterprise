@@ -42,7 +42,14 @@ const Contact = () => {
 
             <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=7136%20realeboga%20street,%20Olievenhoutbosch+(RDBS)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
 
-            <ul>
+           
+
+             
+        </div>
+
+        <div className="contact-col">
+        <h3>Send us a message <img src={message_icon} alt="" /></h3>
+        <ul>
                 <li>
                     <img src={mail_icon} alt="" />Shodress1@gmai.com
                 </li>
@@ -53,12 +60,6 @@ const Contact = () => {
                 <img src={location_icon} alt="" />123 Main Street
                 </li>
             </ul>
-
-             
-        </div>
-
-        <div className="contact-col">
-        <h3>Send us a message <img src={message_icon} alt="" /></h3>
             <form onSubmit={onSubmit}>
                 <label>Your name</label>
                 <input type="text"  name='name' placeholder='Enter your name'/>

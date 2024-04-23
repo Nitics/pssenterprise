@@ -34,7 +34,7 @@
     width: 200%;
     overflow-x: hidden;
     transition: 0.5s;
-    transform: translateX(-20%);
+   
 
 
 }
@@ -64,6 +64,42 @@
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
+}
+
+/* media query ------*/
+@media (max-width:800px){
+    .testimonals{
+        padding: 0 40px;
+    }
+    .next-btn, .back-btn{
+        padding: 10px;
+        width: 35px;
+    }
+    .testimonals ul li{
+        padding: 10px;
+    }t
+    .slide{
+        padding: 10px;
+    }
+    .slide img{
+        width: 50px;
+        border: 3px solid #212EA0;
+    }
+
+}
+
+@media (max-width:600px){
+    .user-infor{
+        display: block;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .user-infor h3{
+        font-size: 16px;
+    }
+    .slider p{
+        font-size: 12px;
+    }
 }
 
 
