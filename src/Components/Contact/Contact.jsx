@@ -37,11 +37,10 @@ const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us a message <img src={message_icon} alt="" /></h3>
-            <p>Thank you for your interest in BrightHorizon Solutions. Please feel free to reach out to 
-                us with any inquiries, questions,
-                 or project ideas. Our team is here to assist you and provide the information you need
-            </p>
+          
+          
+
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=7136%20realeboga%20street,%20Olievenhoutbosch+(RDBS)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps tracker sport</a></iframe>
 
             <ul>
                 <li>
@@ -59,6 +58,7 @@ const Contact = () => {
         </div>
 
         <div className="contact-col">
+        <h3>Send us a message <img src={message_icon} alt="" /></h3>
             <form onSubmit={onSubmit}>
                 <label>Your name</label>
                 <input type="text"  name='name' placeholder='Enter your name'/>
