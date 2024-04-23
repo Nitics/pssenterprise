@@ -26,7 +26,7 @@ const Programs = () => {
 
         <div className="caption">
         <img src={program_icon_2} alt="" /> 
-        <p>Security</p>
+        <p>Security Service</p>
         </div>
         </div>
 
