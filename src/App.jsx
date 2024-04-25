@@ -11,6 +11,10 @@ import Footer from './Components/Footer/Footer'
 
 import Serv from './Components/Serv/Serv'
 
+import { Link } from 'react-router-dom'
+import Team from './Components/Team/Team'
+
+
 
 const App = () => {
   return (
@@ -29,8 +33,10 @@ const App = () => {
       
         <Title subTitle='Contact' title='Talk to us'/>
         <Contact/>
-        
-      
+        <Title subTitle='Our Team' title='Meat Our Team'/>
+        <Team/>
+   
+  
         <Footer/>
         </div>
      

@@ -5,19 +5,6 @@ import mail_icon from '../../assets/mail-icon.png'
 import phone_icon from '../../assets/phone-icon.png'
 import location_icon from '../../assets/location-icon.png'
 import white_arrow from '../../assets/white-arrow.png'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-
-  NavLink
-} from "react-router-dom";
-
-
-import './Contac'
-
-
-
 
 const Contact = () => {
 
@@ -52,8 +39,7 @@ const Contact = () => {
      
 
         <div className="contact-col">
-        <h3>Send us a message <img src={message_icon} alt="" /> </h3>
-       
+        <h3>Send us a message <img src={message_icon} alt="" /></h3>
         <ul>
                 <li>
                     <img src={mail_icon} alt="" />Shodress1@gmai.com
@@ -87,10 +73,7 @@ const Contact = () => {
 
            
       </div>
-      <h2>Link</h2>
-
       
-     
     </div>
   )
 }

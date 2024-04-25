@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
+
 const Footer = () => {
   return (
     <div className='footer'>
@@ -10,6 +11,7 @@ const Footer = () => {
         <li>Our policies</li>
         <li>Terms of service</li>
         <li>Our policies</li>
+      
       </ul>
     </div>
   )

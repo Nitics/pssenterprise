@@ -1,4 +1,5 @@
-import React from 'react'
+
+import React, {useEffect, useState} from 'react'
 import './Programs.css'
 import program_1 from '../../assets/clean03.jpg'
 import program_2 from '../../assets/servicesec.jpg'
@@ -8,6 +9,24 @@ import program_icon_2 from '../../assets/icons-click.png'
 import program_icon_3 from '../../assets/icons-click.png'
 
 const Programs = () => {
+
+
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(()=>{
+    window.addEventListener('scroll',()=>{
+      window.scrollY > 50 ? setSticky(true) : setSticky(false);
+    })
+  },[]);
+
+  const [mobileMenu, setMobileMenu] = useState(false);
+
+  const toggleMenu = ()=>{
+    mobileMenu? setMobileMenu(false) : setMobileMenu(true);
+
+  }
+
+
   return (
     <div className='programs'>
       
@@ -38,7 +57,7 @@ const Programs = () => {
         </div>
         </div>
 
-       
+     
       
     </div>
   )
