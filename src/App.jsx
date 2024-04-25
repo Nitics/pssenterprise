@@ -22,7 +22,7 @@ const App = () => {
         <Hero/>
         <div className="container">
           <Title subTitle='Our Service' title='Waht we provide'/>
-        <Programs/>
+          <Service/>
         
         <About/>
         <Title subTitle='Gallery' title='Our Clients'/>
@@ -33,8 +33,8 @@ const App = () => {
         <Title subTitle='Contact' title='Talk to us'/>
         <Contact/>
 
-        <Title subTitle='Our Services' title='Talk to us'/>
-        <Service/>
+        
+    
   
         <Footer/>
         </div>

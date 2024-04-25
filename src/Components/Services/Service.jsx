@@ -1,53 +1,39 @@
 import React from 'react'
 import './Service.css'
+import user_4 from '../../assets/clean03.jpg'
+import user_2 from '../../assets/clean03.jpg'
 
 const Service = () => {
   return (
     <div className="container-new">
-    <h1 className="container-new__heading">Our Sevices</h1>
+    <h1 className="container-new__heading"></h1>
     <div className="container-new__box">
     
         <div className="box">
-            <img src="https://cdn-icons-png.flaticon.com/512/888/888859.png?w=740&t=st=1677916471~exp=1677917071~hmac=827af8ac831a0bb7d0b81be0893374f854d05dd02adfaeffb66149b744d2cf97" alt=""/>
-            <h3>HTML5</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
+            <img src={user_4} alt=""/>
+            <h3>Cleaning Services</h3>
+            <p>We do proper cleaning </p>
             <a href="" className="btn">Read More</a>
         </div>
 
         <div className="box">
-            <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png?w=740&t=st=1677916869~exp=1677917469~hmac=0543aa1335360aac66f18c8110ffbd21b085825c31d92ffa0e6ad7874027ccd9" alt=""/>
-            <h3>CSS3</h3>
+            <img src={user_2} alt=""/>
+            <h3>Security Services</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
             <a href="" className="btn">Read More</a>
         </div>
   
         <div className="box">
             <img src="https://img.freepik.com/free-icon/javascript_318-698169.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=sph" alt=""/>
-            <h3>JavaScript</h3>
+            <h3>Catering Services</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
             <a href="" className="btn">Read More</a>
         </div>
  
-        <div className="box">
-            <img src="https://img.freepik.com/premium-vector/flat-design-saas-illustration_23-2149253476.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=robertav1" alt=""/>
-            <h3>SASS</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
-            <a href="" className="btn">Read More</a>
-        </div>
+      
 
-        <div className="box">
-            <img src="https://img.freepik.com/free-icon/logogram_318-478558.jpg?size=338&ext=jpg&uid=R95218254&ga=GA1.1.1791957629.1674016057&semt=robertav1" alt=""/>
-            <h3>JQuery</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
-            <a href="" className="btn">Read More</a>
-        </div>
+       
 
-        <div className="box">
-            <img src="https://cdn-icons-png.flaticon.com/512/168/168768.png?w=740&t=st=1677917581~exp=1677918181~hmac=f9748d6e8124b77e88a29622e14456e4a45ce2b0be2680ba3718f16935aeea1a" alt=""/>
-            <h3>React.Js</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, soluta.</p>
-            <a href="" className="btn">Read More</a>
-        </div>
     </div>
 </div>
   )
