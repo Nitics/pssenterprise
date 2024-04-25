@@ -13,6 +13,7 @@ import Serv from './Components/Serv/Serv'
 
 import { Link } from 'react-router-dom'
 import Service from './Components/Services/Service'
+import Team from './Components/Team/Team'
 
 
 const App = () => {
@@ -32,7 +33,8 @@ const App = () => {
       
         <Title subTitle='Contact' title='Talk to us'/>
         <Contact/>
-
+        <Title subTitle='Our Team' title='Meet our team'/>
+        <Team/>
         
     
   

@@ -5,7 +5,7 @@ import './Team.css'
 import team01 from '../../assets/team-04.png'
 import team02 from '../../assets/team-02.jpg'
 import team03 from '../../assets/team-03.png'
-import team04 from '../../assets/team-01.png'
+import team04 from '../../assets/servicesec.jpg'
 
 
 

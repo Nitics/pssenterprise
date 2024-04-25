@@ -70,6 +70,13 @@ const Contact = () => {
                 <input type="text"  name='name' placeholder='Enter your name'/>
                 <label>Phone number</label>
                 <input type="tel"  name='phone' placeholder='Enter your mobile number' required/>
+
+                <label>Email Address</label>
+                <input type="text"  name='email' placeholder='Enter your email address' required/>
+
+                <label>Your address</label>
+                <textarea name="address" required rows="4" placeholder='Enter your address'></textarea>
+                
                 <label>Your message</label>
                 <textarea name="message" required rows="6" placeholder='Enter your message'></textarea>
                 <button type='submit' value="submit" className='btn dark-btn'>submit <img src={white_arrow} alt="" /></button>
