@@ -12,8 +12,7 @@ import Footer from './Components/Footer/Footer'
 import Serv from './Components/Serv/Serv'
 
 import { Link } from 'react-router-dom'
-import Team from './Components/Team/Team'
-
+import Service from './Components/Services/Service'
 
 
 const App = () => {
@@ -33,9 +32,9 @@ const App = () => {
       
         <Title subTitle='Contact' title='Talk to us'/>
         <Contact/>
-        <Title subTitle='Our Team' title='Meat Our Team'/>
-        <Team/>
-   
+
+        <Title subTitle='Our Services' title='Talk to us'/>
+        <Service/>
   
         <Footer/>
         </div>
